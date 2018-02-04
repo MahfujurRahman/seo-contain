@@ -1,0 +1,85 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { 
+    text-decoration: none 
+}
+.section-padding{
+    padding-top: 80px;
+    position: relative;
+}
+.section-bg-1:after{
+    background-image: url(../img/Seo_Content.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 48%;
+    bottom: 0;
+    top: 0;
+    content: "";
+}
+.section-fq {
+    min-height: 490px;
+    padding-top: 40px;
+}
+h2.section-heading {
+    font-weight: 700;
+}
+span {
+    color: #18b4fe;
+}
+p {
+    color: #8b8b8b;
+    font-size: 15px;
+}
+.fa-angle-down, .fa-angle-up{
+    float: right;
+    display: none;
+}
+.section-fq .panel .panel-heading h4 a[aria-expanded=true] .fa-angle-up{
+     display: block;
+}
+.section-fq .panel .panel-heading h4 a[aria-expanded=false] .fa-angle-down{
+     display: block;
+}
+.section-fq .panel-default .panel-heading {
+    background: none;
+}
+.section-fq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: none;
+}
+.section-fq .panel.panel-default {
+    box-shadow: 0 0 0;
+    border-radius: 0;
+}
+.section-fq .panel .panel-heading h4 a{
+    text-decoration: none;
+}
